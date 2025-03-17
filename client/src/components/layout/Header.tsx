@@ -68,7 +68,6 @@ export const Header = () => {
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8 font-['Montserrat'] font-medium items-center">
-            <LanguageToggle />
             {navLinks.map((link) => (
               <a 
                 key={link.href}
