@@ -92,7 +92,7 @@ export const AboutSection = () => {
               >
                 <h3 className="text-xl font-['Montserrat'] font-bold mb-2">Our Vision</h3>
                 <p>
-                  To become the most trusted transportation guide in the Philippines, making public transportation accessible, predictable, and stress-free for everyone.
+                  To become the best app for commuter support not only in the Philippines but around the world by offering accurate, user-friendly, and dependable transportation information.
                 </p>
               </motion.div>
             </div>

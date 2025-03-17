@@ -47,7 +47,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    info: "support@lakbayapp.ph"
+    info: "lakbay403@gmail.com"
   },
   {
     icon: MapPin,
@@ -62,9 +62,7 @@ const contactInfo = [
 ];
 
 const socialLinks = [
-  { icon: FaFacebookF, href: "#", label: "Facebook" },
-  { icon: FaTwitter, href: "#", label: "Twitter" },
-  { icon: FaInstagram, href: "#", label: "Instagram" }
+  { icon: FaFacebookF, href: "https://www.facebook.com/profile.php?id=61573875464269", label: "Facebook" }
 ];
 
 export const ContactSection = () => {
