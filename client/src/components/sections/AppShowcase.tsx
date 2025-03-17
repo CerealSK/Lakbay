@@ -16,7 +16,7 @@ interface BenefitItem {
 
 const showcaseItems: ShowcaseItem[] = [
   {
-    image: "https://images.unsplash.com/photo-1621929747188-0b4dc28498d2?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3",
+    image: "https://miro.medium.com/v2/resize:fit:1200/1*rDQebCdztGr8y3Kqh0CGVA.png",
     title: "Cost Calculation",
     description: "Know exactly how much your trip will cost"
   },
@@ -100,7 +100,7 @@ export const AppShowcase = () => {
             Explore how the app helps you navigate transportation in Cavite
           </motion.p>
         </div>
-        
+
         <div className="relative mb-16">
           {/* Carousel Container */}
           <div className="overflow-hidden">
@@ -125,7 +125,7 @@ export const AppShowcase = () => {
               ))}
             </div>
           </div>
-          
+
           {/* Carousel Controls */}
           <Button 
             onClick={prevSlide}
@@ -145,7 +145,7 @@ export const AppShowcase = () => {
           >
             <ChevronRight />
           </Button>
-          
+
           {/* Carousel Indicators */}
           <div className="flex justify-center mt-6 space-x-2">
             {showcaseItems.map((_, index) => (
@@ -160,7 +160,7 @@ export const AppShowcase = () => {
             ))}
           </div>
         </div>
-        
+
         <motion.div 
           className="bg-white p-8 rounded-xl shadow-md max-w-3xl mx-auto"
           initial={{ opacity: 0, y: 30 }}

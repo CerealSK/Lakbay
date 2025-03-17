@@ -42,10 +42,7 @@ const linkGroups: FooterLinkGroup[] = [
 ];
 
 const socialLinks = [
-  { icon: Facebook, href: "#", label: "Facebook" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Youtube, href: "#", label: "Youtube" }
+  { icon: Facebook, href: "https://www.facebook.com/profile.php?id=61573875464269", label: "Facebook" }
 ];
 
 export const Footer = () => {

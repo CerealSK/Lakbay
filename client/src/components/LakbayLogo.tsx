@@ -15,23 +15,7 @@ export const LakbayLogo = ({ className, size = "md", withTagline = true }: LogoP
 
   return (
     <div className={cn(className)}>
-      <svg 
-        className={cn(sizes[size], "w-auto")} 
-        viewBox="0 0 500 200" 
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path d="M50 50 L50 150 L150 150" stroke="#4BD0D0" strokeWidth="40" fill="none" strokeLinecap="round"/>
-        <path d="M50 150 L150 150" stroke="black" strokeWidth="8" strokeDasharray="8,8"/>
-        <text x="170" y="150" fontSize="80" fontFamily="sans-serif" fontWeight="bold">AKBAY</text>
-        {withTagline && (
-          <text x="170" y="180" fontSize="24" fontFamily="sans-serif">GABAY SA BAWAT BYAHE</text>
-        )}
-        <g transform="translate(450, 80)">
-          <circle cx="0" cy="0" r="30" stroke="#4BD0D0" strokeWidth="4" fill="none"/>
-          <path d="M-10 0 L10 0 M0 -10 L0 10" stroke="#4BD0D0" strokeWidth="4"/>
-          <path d="M0 -20 L0 20" stroke="#4BD0D0" strokeWidth="4" strokeDasharray="4,4"/>
-        </g>
-      </svg>
+      <img src="https://scontent.fmnl4-2.fna.fbcdn.net/v/t39.30808-6/484866353_2019282591929843_5263586361773981030_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeF_o1fXupWdAkaa_von5xqWoYf2q7Y8Je6hh_artjwl7tkJ7zh9pNeqle7z67wpAZk&_nc_ohc=IbT5q-tMFUMQ7kNvgGSUbro&_nc_oc=Adhs-s0StFdIXL-MAOxbuOGxNpKk0XXDsgvHqUXYGezjqZtrNhYSOTAFnKJhswfiWbxkXyzM_ySq6ZVYV2I4X2GB&_nc_zt=23&_nc_ht=scontent.fmnl4-2.fna&_nc_gid=bTRqUilMyAMKrM-sN0XoBg&oh=00_AYHc4PT3RPgFqrJF-I3RtvYOIeItd6P21LZ9p2WWKYZ3sQ&oe=67DDE7BD" alt="Lakbay" className="h-8" />
     </div>
   );
 };
