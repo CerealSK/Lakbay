@@ -61,9 +61,9 @@ export const Header = () => {
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           <Link href="/">
-            <a className="block">
+            <div className="block cursor-pointer">
               <LakbayLogo withTagline={false} />
-            </a>
+            </div>
           </Link>
           
           {/* Desktop Navigation */}
