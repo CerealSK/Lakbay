@@ -27,7 +27,7 @@ const faqItems: FAQItem[] = [
   {
     id: "faq-3",
     question: "What types of transportation does Lakbay include?",
-    answer: "Lakbay includes various Philippine transportation modes such as jeepneys, buses, tricycles, UV Express, and trains where available. We're continuously working to add more options to provide comprehensive coverage."
+    answer: "Lakbay currently includes jeepneys and tricycles. We're continuously working to add more transportation options in the future to provide comprehensive coverage."
   },
   {
     id: "faq-4",
