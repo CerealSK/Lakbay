@@ -16,11 +16,6 @@ interface BenefitItem {
 
 const showcaseItems: ShowcaseItem[] = [
   {
-    image: "https://images.unsplash.com/photo-1622629797619-c103847a1eda?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3",
-    title: "Route Mapping",
-    description: "Find the best transportation options for your journey"
-  },
-  {
     image: "https://images.unsplash.com/photo-1621929747188-0b4dc28498d2?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3",
     title: "Cost Calculation",
     description: "Know exactly how much your trip will cost"
