@@ -29,7 +29,7 @@ const features: Feature[] = [
   {
     icon: Bus,
     title: "Transport Options",
-    description: "Compare different transportation modes including jeepneys, buses, tricycles, and more to find your perfect ride."
+    description: "Compare different transportation modes including jeepneys and tricycles, with more options coming soon to find your perfect ride."
   },
   {
     icon: MapPin,
