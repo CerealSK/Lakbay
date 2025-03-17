@@ -38,7 +38,7 @@ export const AboutSection = () => {
             transition={{ duration: 0.6 }}
           >
             <img 
-              src="https://images.unsplash.com/photo-1581321825690-944511645947?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3" 
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/CALABARZONjf0200_28.JPG/640px-CALABARZONjf0200_28.JPG" 
               alt="Philippines transportation scene" 
               className="rounded-xl shadow-lg w-full"
             />
