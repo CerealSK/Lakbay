@@ -17,21 +17,20 @@ export const LakbayLogo = ({ className, size = "md", withTagline = true }: LogoP
     <div className={cn(className)}>
       <svg 
         className={cn(sizes[size], "w-auto")} 
-        viewBox="0 0 500 500" 
+        viewBox="0 0 500 200" 
         xmlns="http://www.w3.org/2000/svg"
       >
-        <path d="M50 150 L150 150 L230 370 L230 150 L400 150 L400 370" stroke="#4BD0D0" strokeWidth="40" fill="none" strokeLinecap="round"/>
-        <path d="M150 150 L150 370" stroke="black" strokeWidth="15" strokeDasharray="15,15"/>
-        <path d="M230 370 L400 370" stroke="black" strokeWidth="15" strokeDasharray="15,15"/>
-        <g transform="translate(400, 180)">
-          <circle cx="0" cy="0" r="40" fill="#4BD0D0" opacity="0.8"/>
-          <path d="M-15 -10 L15 -10 L15 10 L-15 10 L-15 -10 M-10 -10 L-10 -20 L10 -20 L10 -10" stroke="white" strokeWidth="5" fill="none"/>
-          <path d="M0 20 L10 30 L-10 30 Z" stroke="white" strokeWidth="5" fill="none"/>
+        <path d="M50 50 L50 150 L150 150" stroke="#4BD0D0" strokeWidth="40" fill="none" strokeLinecap="round"/>
+        <path d="M50 150 L150 150" stroke="black" strokeWidth="8" strokeDasharray="8,8"/>
+        <text x="170" y="150" fontSize="80" fontFamily="sans-serif" fontWeight="bold">AKBAY</text>
+        {withTagline && (
+          <text x="170" y="180" fontSize="24" fontFamily="sans-serif">GABAY SA BAWAT BYAHE</text>
+        )}
+        <g transform="translate(450, 80)">
+          <circle cx="0" cy="0" r="30" stroke="#4BD0D0" strokeWidth="4" fill="none"/>
+          <path d="M-10 0 L10 0 M0 -10 L0 10" stroke="#4BD0D0" strokeWidth="4"/>
+          <path d="M0 -20 L0 20" stroke="#4BD0D0" strokeWidth="4" strokeDasharray="4,4"/>
         </g>
-        <text x="250" y="420" fontSize="24" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">
-          {withTagline ? "GABAY SA BAWAT BYAHE" : ""}
-        </text>
-        <text x="300" y="270" fontSize="80" textAnchor="middle" fontFamily="sans-serif" fontWeight="bold">AKBAY</text>
       </svg>
     </div>
   );
