@@ -38,7 +38,7 @@ export const AboutSection = () => {
             transition={{ duration: 0.6 }}
           >
             <img 
-              src="https://images.unsplash.com/photo-1581321825690-944511645947?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3" 
+              src="/attached_assets/640px-CALABARZONjf0200_28.jpg" 
               alt="Philippines transportation scene" 
               className="rounded-xl shadow-lg w-full"
             />
@@ -62,7 +62,7 @@ export const AboutSection = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.1 }}
               >
-                Lakbay was created with a simple mission: to simplify commuting in the Philippines by providing accurate transportation information and cost estimates to travelers and daily commuters alike.
+                To provide commuters with dependable and accurate fare and route information using modern technology, thereby making travel easier, more efficient, and accessible to all.
               </motion.p>
               
               <motion.p
