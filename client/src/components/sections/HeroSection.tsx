@@ -83,7 +83,7 @@ export const HeroSection = () => {
             <div className="relative">
               <div className="absolute -z-10 bg-primary/30 rounded-full w-64 h-64 md:w-80 md:h-80 blur-3xl"></div>
               <motion.img 
-                src="https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1674&auto=format&fit=crop" 
+                src="https://scontent.fmnl4-4.fna.fbcdn.net/v/t39.30808-6/484868911_2019283081929794_7040319670369872696_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeFiY0uXQgiABni-ao68beXNr0eZbPbf5d2vR5ls9t_l3dNpvZaJSpL89zbbCeZfilk&_nc_ohc=DCI7ECGODwoQ7kNvgFSrer6&_nc_oc=AdggxSvEnwqTjyuET0eBShjoesdgk6ff4JU9a1Y02oPME3w0zy7oI2cmlQbz7PzOodk649KEc996SmZmYF0d3Zym&_nc_zt=23&_nc_ht=scontent.fmnl4-4.fna&_nc_gid=NsU9jhuVOlqF67cU1LpTSw&oh=00_AYH6I_vwqJSfGUeR04dZTfMgZNYogMM86EDXAg3YyGm5uw&oe=67DE0641" 
                 alt="Lakbay App on Phone" 
                 className="rounded-3xl shadow-2xl w-64 md:w-80 object-cover border-8 border-white"
                 initial={{ y: 30, opacity: 0 }}
