@@ -17,11 +17,6 @@ interface Feature {
 
 const features: Feature[] = [
   {
-    icon: Route,
-    title: "Route Planning",
-    description: "Find the best routes for your commute with detailed step-by-step navigation and transportation options."
-  },
-  {
     icon: Calculator,
     title: "Cost Calculator",
     description: "Know exactly how much your trip will cost before you leave with our accurate fare estimation system."
