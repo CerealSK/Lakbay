@@ -94,14 +94,8 @@ export const ContactSection = () => {
 
   const submitContactForm = useMutation({
     mutationFn: async (data: ContactFormValues) => {
-      // If in GitHub Pages mode, use the static data implementation
-      if (isGitHubPages) {
-        return await submitStaticContactForm(data);
-      } else {
-        // Regular API call for non-GitHub Pages environment
-        const response = await apiRequest("POST", "/api/contact", data);
-        return response.json();
-      }
+      // Always use the static data implementation for a fully static website
+      return await submitStaticContactForm(data);
     },
     onSuccess: () => {
       toast({
