@@ -28,7 +28,7 @@ function App() {
   return (
     <Switch>
       <Route path={`${basePath}/`} component={Home} />
-      <Route component={NotFound} />
+      <Route path={`${basePath}/*`} component={NotFound} />
     </Switch>
   );
 }
