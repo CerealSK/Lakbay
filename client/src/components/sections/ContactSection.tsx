@@ -81,10 +81,27 @@ export const ContactSection = () => {
     }
   });
 
+  // Check if we're running in GitHub Pages (deployed) environment
+  const [isGitHubPages, setIsGitHubPages] = useState(false);
+  
+  useEffect(() => {
+    // Check if we're in GitHub Pages environment by looking at the URL or hostname
+    const isGitHubPagesEnv = window.location.hostname.includes('github.io') || 
+                           window.location.href.includes('.github.io') ||
+                           window.location.href.includes('/lakbay/');
+    setIsGitHubPages(isGitHubPagesEnv);
+  }, []);
+
   const submitContactForm = useMutation({
     mutationFn: async (data: ContactFormValues) => {
-      const response = await apiRequest("POST", "/api/contact", data);
-      return response.json();
+      // If in GitHub Pages mode, use the static data implementation
+      if (isGitHubPages) {
+        return await submitStaticContactForm(data);
+      } else {
+        // Regular API call for non-GitHub Pages environment
+        const response = await apiRequest("POST", "/api/contact", data);
+        return response.json();
+      }
     },
     onSuccess: () => {
       toast({
