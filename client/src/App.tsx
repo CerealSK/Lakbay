@@ -4,28 +4,30 @@ import { Home } from "./pages/Home";
 import NotFound from "./pages/not-found";
 
 function App() {
-  // Since we're making a static site, we need to handle different deployment environments
+  // For a static site, we need to handle different deployment environments
   const [basePath, setBasePath] = useState('');
   const [location, setLocation] = useLocation();
 
   useEffect(() => {
     // Determine the base path based on the deployment environment
-    // This handles GitHub Pages and other static hosting environments
-    const isStaticHostingEnv = window.location.hostname.includes('github.io') || 
-                             window.location.href.includes('.github.io') ||
-                             window.location.href.includes('/lakbay/');
+    // For GitHub Pages, we use '/lakbay', for other environments we use relative paths
+    const isGitHubPages = window.location.hostname.includes('github.io') || 
+                         window.location.href.includes('.github.io') ||
+                         window.location.href.includes('/lakbay/');
     
-    const calculatedBasePath = isStaticHostingEnv ? "/lakbay" : "";
+    // We're building a fully static site, so calculate the base path accordingly
+    const calculatedBasePath = isGitHubPages ? "/lakbay" : "";
     setBasePath(calculatedBasePath);
 
-    // Handle base path routing
-    if (isStaticHostingEnv && location === "/") {
-      // We're at the base URL, set location to the app root
+    // Handle base path routing for GitHub Pages
+    if (isGitHubPages && location === "/") {
       setLocation("/");
     }
     
-    // Set a global flag to indicate we're in static mode for components that need it
+    // Always set the global flag for static mode
     window.IS_STATIC_MODE = true;
+    
+    console.log("App running in static mode, base path:", calculatedBasePath);
   }, [location, setLocation]);
 
   return (
