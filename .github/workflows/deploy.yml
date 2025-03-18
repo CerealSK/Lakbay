@@ -27,7 +27,7 @@ jobs:
       - name: Build website
         run: |
           # Run a special build command for GitHub Pages
-          npx vite build --base=/lakbay/
+          npx vite build --config github-pages.config.js
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
