@@ -24,10 +24,7 @@ export const DesignShowcase = () => {
   return (
     <section className="py-16 bg-background">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-4">App Design</h2>
-        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Experience seamless navigation with our thoughtfully designed interface that puts the power of local transportation at your fingertips.
-        </p>
+        <h2 className="text-3xl font-bold text-center mb-12">App Design</h2>
         
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="bg-card rounded-xl shadow-2xl overflow-hidden order-2 lg:order-1 max-w-[800px] mx-auto">
