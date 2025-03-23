@@ -39,7 +39,7 @@ export const DesignShowcase = () => {
           <div className="rounded-lg overflow-hidden shadow-xl">
             <AspectRatio ratio={16/9}>
               <img 
-                src="/attached_assets/Screenshot 2025-03-23 180227.png" 
+                src="/attached_assets/image_1742724055978.png" 
                 alt="App Interface" 
                 className="object-cover w-full h-full"
               />
