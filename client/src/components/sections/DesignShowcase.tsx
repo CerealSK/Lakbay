@@ -30,12 +30,12 @@ export const DesignShowcase = () => {
         </p>
         
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="bg-card rounded-xl shadow-2xl overflow-hidden order-2 lg:order-1">
-            <AspectRatio ratio={16/9}>
+          <div className="bg-card rounded-xl shadow-2xl overflow-hidden order-2 lg:order-1 max-w-[800px] mx-auto">
+            <AspectRatio ratio={1920/937}>
               <img 
                 src="https://cdn.discordapp.com/attachments/753898307549528105/1353310192338735155/image.png?ex=67e12fd5&is=67dfde55&hm=615f60377bf051caf4503ea1dc0073a591888a2aaedb65a91cddb487404daf18" 
                 alt="Lakbay App Interface" 
-                className="object-cover w-full h-full"
+                className="object-contain w-full h-full"
               />
             </AspectRatio>
           </div>
