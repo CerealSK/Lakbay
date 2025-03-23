@@ -7,7 +7,7 @@ import { AboutSection } from "@/components/sections/AboutSection";
 import { DownloadSection } from "@/components/sections/DownloadSection";
 import { FAQSection } from "@/components/sections/FAQSection";
 import { ContactSection } from "@/components/sections/ContactSection";
-import { AppDesignShowcase } from "@/components/sections/AppDesignShowcase";
+import { DesignShowcase } from "@/components/sections/DesignShowcase"; // Added import
 
 export const Home = () => {
   return (
@@ -17,7 +17,6 @@ export const Home = () => {
         <HeroSection />
         <FeaturesSection />
         <AppShowcase />
-        <AppDesignShowcase />
         <AboutSection />
         <DownloadSection />
         <FAQSection />
