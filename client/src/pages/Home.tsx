@@ -17,7 +17,6 @@ export const Home = () => {
         <HeroSection />
         <FeaturesSection />
         <AppShowcase />
-        <DesignShowcase /> {/* Added DesignShowcase */}
         <AboutSection />
         <DownloadSection />
         <FAQSection />
