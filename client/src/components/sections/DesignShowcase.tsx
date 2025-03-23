@@ -39,7 +39,7 @@ export const DesignShowcase = () => {
           <div className="rounded-lg overflow-hidden shadow-xl">
             <AspectRatio ratio={16/9}>
               <img 
-                src="/attached_assets/image_1742724055978.png" 
+                src="https://cdn.discordapp.com/attachments/753898307549528105/1353308478462099567/image.png?ex=67e12e3c&is=67dfdcbc&hm=d83f9d1615066d3fdb622a7284c5732a36d4aff5e5db80bde3c04fa576c0eccc" 
                 alt="App Interface" 
                 className="object-cover w-full h-full"
               />
