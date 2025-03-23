@@ -1,4 +1,3 @@
-
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const designFeatures = [
@@ -25,7 +24,7 @@ export const DesignShowcase = () => {
     <section className="py-16 bg-background">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">Thoughtful Design</h2>
-        
+
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             {designFeatures.map((feature, index) => (
@@ -35,11 +34,11 @@ export const DesignShowcase = () => {
               </div>
             ))}
           </div>
-          
+
           <div className="rounded-lg overflow-hidden shadow-xl">
             <AspectRatio ratio={16/9}>
               <img 
-                src="/attached_assets/image_1742316189994.png" 
+                src="attached_assets/image_1742723696079.png" 
                 alt="App Interface" 
                 className="object-cover w-full h-full"
               />

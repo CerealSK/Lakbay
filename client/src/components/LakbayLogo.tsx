@@ -15,7 +15,7 @@ export const LakbayLogo = ({ className, size = "md", withTagline = true }: LogoP
 
   return (
     <div className={cn(className)}>
-      <img src="/attached_assets/484866353_2019282591929843_5263586361773981030_n.jpg" alt="Lakbay" className="h-8" />
+      <img src="attached_assets/484866353_2019282591929843_5263586361773981030_n.jpg" alt="Lakbay" className="h-8" />
     </div>
   );
 };
