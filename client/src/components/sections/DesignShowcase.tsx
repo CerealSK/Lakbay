@@ -41,7 +41,7 @@ export const DesignShowcase = () => {
               <img 
                 src="/attached_assets/image_1742723088747.png" 
                 alt="App Interface with Route Details" 
-                className="object-cover w-full h-full"
+                className="object-contain w-full h-full"
               />
             </AspectRatio>
           </div>
