@@ -5,6 +5,7 @@ import { FeaturesSection } from "@/components/sections/FeaturesSection";
 import { AppShowcase } from "@/components/sections/AppShowcase";
 import { AboutSection } from "@/components/sections/AboutSection";
 import { DownloadSection } from "@/components/sections/DownloadSection";
+import { CommercialSection } from "@/components/sections/CommercialSection";
 import { FAQSection } from "@/components/sections/FAQSection";
 import { ContactSection } from "@/components/sections/ContactSection";
 import { DesignShowcase } from "@/components/sections/DesignShowcase"; // Added import
@@ -17,6 +18,7 @@ export const Home = () => {
         <HeroSection />
         <FeaturesSection />
         <AppShowcase />
+        <CommercialSection />
         <AboutSection />
         <DownloadSection />
         <FAQSection />
