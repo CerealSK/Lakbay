@@ -22,22 +22,6 @@ const linkGroups: FooterLinkGroup[] = [
       { label: "FAQ", href: "#faq" },
       { label: "Contact", href: "#contact" }
     ]
-  },
-  {
-    title: "Legal",
-    links: [
-      { label: "Terms of Service", href: "#" },
-      { label: "Privacy Policy", href: "#" },
-      { label: "Cookie Policy", href: "#" }
-    ]
-  },
-  {
-    title: "Support",
-    links: [
-      { label: "Help Center", href: "#" },
-      { label: "Community", href: "#" },
-      { label: "Report a Bug", href: "#" }
-    ]
   }
 ];
 
